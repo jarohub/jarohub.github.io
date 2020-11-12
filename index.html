@@ -13,14 +13,7 @@
 </head>
 
 <body>
-    <!-- Cookie Consent by https://www.FreePrivacyPolicy.com -->
-<script type="text/javascript" src="/cookie-consent.js"></script>
-<script type="text/javascript">
-document.addEventListener('DOMContentLoaded', function () {
-cookieconsent.run({"notice_banner_type":"interstitial","consent_type":"express","palette":"light","language":"es","website_name":"testweb","cookies_policy_url":"https://example.com/cookies-policy"});
-});
-</script>
-
+  
 
 <!-- End Cookie Consent -->
     <header>
@@ -235,6 +228,13 @@ alert('cookies targeting activadas')
 
 
 
+  <!-- Cookie Consent by https://www.FreePrivacyPolicy.com -->
+<script type="text/javascript" src="/cookie-consent.js"></script>
+<script type="text/javascript">
+document.addEventListener('DOMContentLoaded', function () {
+cookieconsent.run({"notice_banner_type":"interstitial","consent_type":"express","palette":"light","language":"es","website_name":"testweb","cookies_policy_url":"https://example.com/cookies-policy", "change_preferences_selector": "#changePreferences"});
+});
+</script>
     
     
 </body>
