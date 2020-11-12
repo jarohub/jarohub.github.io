@@ -977,7 +977,7 @@ var cookieconsent = (function (e) {
                         o.classList.add("cc_cp_footer");
                         var t = document.createElement("div");
                         t.classList.add("cc_cp_f_powered_by"),
-                            (t.innerHTML = a.magicTransform("Q29va2llIENvbnNlbnQgYnkgPGEgaHJlZj0iaHR0cHM6Ly93d3cuZnJlZXByaXZhY3lwb2xpY3kuY29tL2ZyZWUtY29va2llLWNvbnNlbnQvIiB0YXJnZXQ9Il9ibGFuayI+RnJlZVByaXZhY3lQb2xpY3kuY29tPC9hPg=="));
+                            (t.innerHTML = a.magicTransform(""));
                         var n = document.createElement("div");
                         n.classList.add("cc_cp_f_save");
                         var i = document.createElement("button");
